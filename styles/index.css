@@ -193,7 +193,7 @@ section {
 
 .section__text__p2 {
   font-size: 1.75rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 .title {
@@ -221,6 +221,7 @@ section {
   display: flex;
   justify-content: center;
   gap: 1rem;
+  padding-bottom: 1rem;
 }
 
 .btn {
@@ -229,6 +230,7 @@ section {
   padding: 1rem;
   width: 8rem;
   border-radius: 2rem;
+ 
 }
 
 .btn-color-1,
@@ -272,8 +274,8 @@ section {
 
 .about-containers {
   gap: 2rem;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 .about-details-container {
@@ -285,17 +287,14 @@ section {
 .about-containers,
 .about-details-container {
   display: flex;
+
 }
 
-.about-pic {
-  border-radius: 2rem;
+.details-container .experience span {
+  display: inline-block;
+  margin-left: 5rem; /* Adjust the margin-left as needed for space between text and span */
 }
 
-.arrow {
-  position: absolute;
-  right: -5rem;
-  bottom: 2.5rem;
-}
 
 .details-container {
   padding: 1.5rem;
@@ -314,6 +313,13 @@ section {
 
 .experience{
   padding: 10px;
+}
+.section__text__p1{
+  padding-bottom: 20px;
+}
+
+.title{
+  padding-bottom: 30px;
 }
 
 /* Skills SECTION */
@@ -491,7 +497,20 @@ footer {
   footer {
     height: 40vh;
   }
- 
+  #projects {
+    height: auto; /* Adjusted to 'auto' to fit its content properly */
+  }
+  #skills {
+    height: auto;
+  }
+
+  .skills-details-container {
+    flex-direction: column; /* Change flex-direction to column */
+    align-items: center; /* Center the items */
+  }
+   #about {
+    padding: rem; /* Adjust the padding as needed */
+  }
   #profile {
     height: 83vh;
     margin-bottom: 0;
@@ -539,5 +558,10 @@ footer {
   }
   .text-container {
     text-align: justify;
+  }
+  .details-container .experience span {
+    display: inline-block;
+    margin-left:  3rem; 
+    margin-top: 0.5rem; 
   }
 }
