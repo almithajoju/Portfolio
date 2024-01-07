@@ -526,6 +526,7 @@ footer {
   .contact-info-upper-container,
   .btn-container {
     flex-wrap: wrap;
+    
   }
   .contact-info-container {
     margin: 0;
@@ -533,6 +534,10 @@ footer {
   .contact-info-container p,
   .nav-links li a {
     font-size: 1rem;
+    
+  }
+  .contact-info-container{
+    margin-left: 1rem;
   }
   .skills-sub-title {
     font-size: 1.25rem;
